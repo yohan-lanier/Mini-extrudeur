@@ -1,4 +1,30 @@
 # mini-extrudeur
+
+Development of an Arduino controlled mini-extruder to test various materials at different rates of extrusion. A force measurement device and a data logger were also specially designed. This repository stores various code files :
+
+- Arduino scripts which controls the stepper motor and the cell force (two different arduino Uno boards were used)
+- Python scripts used to create GUI (one for the stepper control and one for the data logger)
+
+
+## The Team of the **3D extrusion of local material** project @Ecole des Ponts ParisTech
+
+
+- [Lise Dousset](https://github.com/Lise-Dousset)
+- [Julien Hamelin](https://github.com/JulienHamelin)
+- [Alaric Blanque](https://github.com/alaricblanque)
+- [Yohan Lanier](https://github.com/yohan-lanier)
+
+## See also 
+
+- [How we build the prototype](https://www.instructables.com/Geopolymer-Mini-Extruder/)
+- [How we build the force measurement device and the data logger](https://www.instructables.com/Force-Measurement-With-Arduino-and-Data-Logger-GUI/)
+
+
+## Note 
+
+The file *rx_threading.py* has been coded by [DRSEE](https://github.com/DRSEE/GUI_PyDataLogger). We have simply re-used it here because it is a really nice script and it perfectly fitted our needs. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 Github repo pour le code et les explications de notre prototype dans le cadre du projet "Extrusion 3D de matériaux locaux" @Ecole des Ponts ParisTech
 
 Ce dépot contient : 
@@ -8,7 +34,6 @@ Ce dépot contient :
     *Les codes python d'interface graphique pour la commande du moteur et pour l'acquisition des données
     *Le code python avec lequel nous avons réalisé l'évaluation numérique des pertes de charges dans l'extrudeur
     
-Un wiki est aussi disponible pour plus d'explications et de détails sur l'avancement du projet. Le wiki contient également une liste du matériel à prendre avec soit pour utiliser le prototype ainsi qu'un mode d'emploi.
 
 Requierements pour les codes : 
 
